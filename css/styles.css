@@ -1,0 +1,186 @@
+/* ---------------- RESET ---------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* ---------------- BODY ---------------- */
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  background: #1e1b2e; /* más elegante (oscuro) */
+  color: #f5f5f5;
+
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* ---------------- MAIN ---------------- */
+main {
+  width: 85%;
+  margin: auto;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ---------------- TITULOS ---------------- */
+h1 {
+  font-size: 3.2rem;
+  margin: 3rem 0;
+}
+
+h2 {
+  font-size: 2.6rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+/* ---------------- HEADER / FOOTER ---------------- */
+header,
+footer {
+ 
+  background: #151225;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+}
+
+
+
+/* ---------------- LOGO ---------------- */
+.logo {
+
+  justify-self: center;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+  display: block;
+}
+
+
+
+/* ---------------- NAV ---------------- */
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.header-nav a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+/* ---------------- BOTONES ---------------- */
+.btn {
+  border: none;
+  padding: 1.2rem 2rem;
+  border-radius: 2rem;
+  background: #d4af37; /* dorado elegante */
+  color: #1e1b2e;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.4rem; /* controla todo el botón */
+
+  transition: 0.3s;
+}
+
+.btn i {
+  font-size: 1.4rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------------- GRID DE PRODUCTOS ---------------- */
+.contenedor-tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 3rem;
+  width: 100%;
+}
+
+/* ---------------- CARD PERFUME ---------------- */
+.card {
+  background: #2a2540;
+  border-radius: 1.5rem;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+  padding-bottom: 2rem;
+
+  transition: 0.3s;
+}
+
+/* ---------------- IMAGEN ---------------- */
+.card img {
+  width: 100%;
+  max-height: 16rem;
+  object-fit: contain;
+}
+
+
+/* ---------------- TEXTO ---------------- */
+.card h3 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.card p {
+  font-size: 1.4rem;
+  padding: 0 1rem;
+}
+
+/* precio */
+.card .precio {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #d4af37;
+}
+
+/* ---------------- CONTACTO ---------------- */
+.form-contacto {
+  background: #2a2540;
+  width: 100%;
+  max-width: 50rem;
+  padding: 3rem;
+  border-radius: 1.5rem;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+@media (max-width: 600px) {
+  header,
+  footer {
+    flex-direction: column;
+  }
+}
