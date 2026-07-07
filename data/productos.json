@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Body Splash Coconut Passion",
+    "precio": 35000,
+    "img": "img/coco.jpg",
+    "descripcion": "Fragancia suave, elegante y duradera."
+  },
+  {
+    "id": 2,
+    "nombre": "Body Splash Vainilla Shimmer",
+    "precio": 50000,
+    "img": "img/vainilla-shimmer.webp",
+    "descripcion": "Aroma intenso con notas dulces de vainilla."
+  },
+  {
+    "id": 3,
+    "nombre": "Body Splash Vainilla",
+    "precio": 35000,
+    "img": "img/vainilla.webp",
+    "descripcion": "Fragancia fresca y femenina."
+  }
+] 

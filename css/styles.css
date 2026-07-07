@@ -184,3 +184,12 @@ footer {
     flex-direction: column;
   }
 }
+.card button{
+margin-top:1rem;
+}
+
+.precio{
+font-size:1.8rem;
+font-weight:bold;
+color:#d4af37;
+}
