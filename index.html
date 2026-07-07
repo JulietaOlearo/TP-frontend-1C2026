@@ -3,18 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta name="description" content="Perfumes VS - Tienda online de perfumes y body splash Victoria's Secret.">
   <meta name="keywords" content="perfumes, body splash, Victoria's Secret, fragancias">
   <meta name="author" content="Julieta Olearo">
-  <title>Perfumes VS - Productos</title>
+
+  <title>Perfumes VS</title>
+
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
 <header>
+
   <a class="logo" href="index.html">
-    <img src="img/victorias-secret.svg" alt="Perfumes VS">
+    <img src="img/victorias-secret.svg" alt="Logo de Perfumes VS">
   </a>
 
   <nav class="header-nav">
@@ -22,14 +26,15 @@
       <li><a href="index.html">Inicio</a></li>
       <li><a href="pages/productos.html">Productos</a></li>
       <li><a href="pages/contacto.html">Contacto</a></li>
+
+      <li>
+        <a href="pages/carrito.html"></a>
+          🛒 <span id="contador-carrito">0</span>
+        </a>
+      </li>
     </ul>
-    <li>
-<a href="carrito.html">
-🛒
-<span id="contador-carrito">0</span>
-</a>
-</li>
   </nav>
+
 </header>
 
 <main>
@@ -40,56 +45,57 @@
   </section>
 
   <section id="multimedia">
-  <h2>Productos destacados</h2>
 
-  <div class="contenedor-tarjetas">
+    <h2>Productos destacados</h2>
 
-    <div class="card">
-      <img src="img/coco.jpg" alt="Perfume con fragancia a Coco">
-      <h3>Perfume  Body Splash Coconut Passion</h3>
-      <p>Fragancia suave, elegante y duradera.</p>
-      <p class="precio">$35.000</p>
+    <div class="contenedor-tarjetas">
+
+      <div class="card">
+        <img src="img/coco.jpg" alt="Perfume Body Splash Coconut Passion">
+        <h3>Body Splash Coconut Passion</h3>
+        <p>Fragancia suave, elegante y duradera.</p>
+        <p class="precio">$35.000</p>
+      </div>
+
+      <div class="card">
+        <img src="img/vainilla-shimmer.webp" alt="Body Splash Vainilla y Shimmer">
+        <h3>Body Splash Vainilla + Shimmer</h3>
+        <p>Aroma intenso con notas de vainilla.</p>
+        <p class="precio">$50.000</p>
+      </div>
+
     </div>
-
-    <div class="card">
-      <img src="img/vainilla-shimmer.webp" alt="Combo de Body splash fragancia Vainilla y Shimmer">
-      <h3>Combo de perfume Body Splash de Vainilla + Shimmer</h3>
-      <p>Aroma intenso con notas de vainilla</p>
-      <p class="precio">$50.000</p>
-    </div>
-
-  </div>
 
     <a class="btn" href="pages/productos.html">
-  Ver todos los productos
+      Ver todos los productos
     </a>
-    <section class="resenas">
 
-<h2>Reseñas de clientes</h2>
+  </section>
 
-<div class="grid-resenas">
+  <section class="resenas">
 
-<div class="card-resena">
-<h3>⭐⭐⭐⭐⭐</h3>
-<p>"Los perfumes duran muchísimo. Recomiendo Coconut Passion."</p>
-</div>
+    <h2>Reseñas de nuestros clientes</h2>
 
-<div class="card-resena">
-<h3>⭐⭐⭐⭐⭐</h3>
-<p>"Excelente atención y envío rápido."</p>
-</div>
+    <div class="grid-resenas">
 
-<div class="card-resena">
-<h3>⭐⭐⭐⭐⭐</h3>
-<p>"Muy buena calidad. Volvería a comprar."</p>
-</div>
+      <div class="card-resena">
+        <h3>⭐⭐⭐⭐⭐</h3>
+        <p>"Los perfumes duran muchísimo. Recomiendo Coconut Passion."</p>
+      </div>
 
-</div>
+      <div class="card-resena">
+        <h3>⭐⭐⭐⭐⭐</h3>
+        <p>"Excelente atención y envío rápido."</p>
+      </div>
 
-</section>
+      <div class="card-resena">
+        <h3>⭐⭐⭐⭐⭐</h3>
+        <p>"Muy buena calidad. Volvería a comprar."</p>
+      </div>
 
+    </div>
 
-</section>
+  </section>
 
 </main>
 
@@ -97,4 +103,7 @@
   <p>© 2026 Perfumes VS</p>
 </footer>
 
+<script type="module" src="js/productos.js"></script>
+
 </body>
+</html>
