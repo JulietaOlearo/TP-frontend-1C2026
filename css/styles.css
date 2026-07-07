@@ -193,3 +193,17 @@ font-size:1.8rem;
 font-weight:bold;
 color:#d4af37;
 }
+.grid-resenas{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:2rem;
+margin:3rem 0;
+width:100%;
+}
+
+.card-resena{
+background:#2a2540;
+padding:2rem;
+border-radius:1rem;
+text-align:center;
+}
